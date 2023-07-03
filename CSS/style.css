@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chessboard {
+    height: 68%;
+    width: 33%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    border: 1rem solid saddlebrown;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+    
+    
+}
+ .chess1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    border: none;
+}
+.chess2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    border: none;
+}
+.chess3, .chess4, .chess5, .chess6, .chess7 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    border: none;
+}
+.chess8 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    border: none;
+}
+.green {
+    background-color: black;
+}
+button {
+    background-color: #fcec0b;
+    border: none;
+}
